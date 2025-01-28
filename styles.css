@@ -1,0 +1,101 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .header {
+    text-align: center;
+    background-color: #2b6777;
+    color: white;
+    padding: 20px 10px;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .main-content {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .image-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .team-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .description-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .description-section h2 {
+    font-size: 1.8rem;
+    color: #2b6777;
+    margin-bottom: 10px;
+  }
+  
+  .features-section {
+    background-color: #e7f6f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .features-section h2 {
+    font-size: 1.8rem;
+    color: #2b6777;
+    margin-bottom: 10px;
+  }
+  
+  .features-section ul {
+    list-style: none;
+    padding-left: 20px;
+  }
+  
+  .features-section li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  .features-section li strong {
+    color: #2b6777;
+  }
+  
+  .footer {
+    text-align: center;
+    background-color: #2b6777;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  
+  .footer p {
+    font-size: 0.9rem;
+  }
+  
